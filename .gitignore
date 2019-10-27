@@ -3,10 +3,14 @@
 # dependencies
 /node_modules
 /.pnp
+src/config
 .pnp.js
+
+/.vscode
 
 # testing
 /coverage
+/.nyc_output
 
 # production
 /build
@@ -18,6 +22,18 @@
 .env.test.local
 .env.production.local
 
+firebase-debug.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+yarn.lock
+.npmrc
+
+
+.idea
+*.iml
+*.tgz
+scripts/*.json
+
+lib/
+dev/
